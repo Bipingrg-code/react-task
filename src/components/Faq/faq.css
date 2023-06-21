@@ -1,0 +1,18 @@
+.faq {
+    height: 496px;
+    background: #ffffff;
+}
+
+.faq .container .row:nth-child(2) .col .questions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    border: 1px solid #a9abad;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 0px 20px;
+    color: #14213A;
+    font-weight: 500;
+}

@@ -1,0 +1,25 @@
+.trusted {
+    height: 350px;
+    background-color: #ffffff;
+}
+.trusted .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 100%;
+    flex-direction: column;
+}
+.trusted .title h3 {
+    font-weight: 700;
+    font-size: 24px;
+    color: #14213A;
+}
+
+.trusted .container .row .col .card {
+    height: 100px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

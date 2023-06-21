@@ -1,0 +1,25 @@
+.apply {
+    height: 568px;
+    background: #14213A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.apply .row {
+    height: 100%;
+}
+
+.apply .row .image {
+    display: flex;
+    align-items: center;
+}
+
+.apply .row .text {
+    display: flex;
+    align-items: center;
+}
+
+.apply .row .text .discription {
+    text-align: center;
+}
