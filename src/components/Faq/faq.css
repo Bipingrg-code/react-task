@@ -3,7 +3,27 @@
     background: #ffffff;
 }
 
-.faq .container .row:nth-child(2) .col .questions{
+.faq .container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.faq .container .text .title h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #14213A;
+}
+
+.faq .container .text .discription p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #2C3444;
+}
+
+.faq .container .question-group .col .questions {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -15,4 +35,8 @@
     padding: 0px 20px;
     color: #14213A;
     font-weight: 500;
+}
+
+.faq .container .question-group .col .questions p {
+    margin-bottom: 0;
 }

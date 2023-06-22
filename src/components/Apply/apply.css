@@ -13,6 +13,7 @@
 .apply .row .image {
     display: flex;
     align-items: center;
+
 }
 
 .apply .row .text {
@@ -21,5 +22,42 @@
 }
 
 .apply .row .text .discription {
-    text-align: center;
+    color: #fff;
+}
+
+.apply .row .text .discription .title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #0057FF;
+    margin-bottom: 20px;
+}
+
+.apply .row .text .discription h3 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.apply .row .text .discription p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.apply .row .text .discription ul {
+    list-style-type: none;
+    padding: 0;
+
+}
+
+.apply .row .text .discription ul>li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.apply .row .text .discription Button {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 10px;
 }

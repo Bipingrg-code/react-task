@@ -6,7 +6,7 @@ const Faq = () => {
   return (
     <div className="faq">
       <Container>
-        <Row>
+        <Row className=" text mb-3">
           <div className="title text-center">
             <h3>Frequently Asked Questions</h3>
           </div>
@@ -16,13 +16,13 @@ const Faq = () => {
               comprehansive support at every step of the way</p>
           </div>
         </Row>
-        <Row>
+        <Row className='question-group mb-3'>
           <Col>
             <div className='questions'>
               <p>How to Submit your Documents.?</p>
               <span><KeyboardArrowDownOutlinedIcon /></span>
             </div>
-            <div className='questions '>
+            <div className='questions my-4'>
               <p>How to get Embassy Data.?</p>
               <span><KeyboardArrowDownOutlinedIcon /></span>
             </div>
@@ -32,18 +32,18 @@ const Faq = () => {
             </div>
           </Col>
           <Col>
-          <div className='questions'>
-          <p>Know Rules & Regulation.?</p>
-          <span><AddIcon /></span>
-        </div>
-        <div className='questions'>
-          <p>How to get Flight Tickets.?</p>
-          <span><AddIcon /></span>
-        </div>
-        <div className='questions'>
-          <p>What are the jobs avaiable.?</p>
-          <span><AddIcon /></span>
-        </div>
+            <div className='questions'>
+              <p>Know Rules & Regulation.?</p>
+              <span><AddIcon /></span>
+            </div>
+            <div className='questions my-4'>
+              <p>How to get Flight Tickets.?</p>
+              <span><AddIcon /></span>
+            </div>
+            <div className='questions'>
+              <p>What are the jobs avaiable.?</p>
+              <span><AddIcon /></span>
+            </div>
           </Col>
         </Row>
       </Container>

@@ -5,6 +5,7 @@ import Button from '@mui/material/Button';
 import MenuIcon from '@mui/icons-material/Menu';
 import Logo from '../../assets/logo.png'
 import './header.css'
+import { Image } from 'react-bootstrap';
 const Header = () => {
     return (
         <div className="header">
@@ -12,7 +13,7 @@ const Header = () => {
                 <Navbar expand="lg">
                     <Container>
                         <Navbar.Brand href="#home">
-                            <img src={Logo} alt="logo" />
+                            <Image src={Logo} alt="logo" class="img-fluid"/>
                         </Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
