@@ -1,0 +1,31 @@
+.clean-service{
+    height: 715px;
+}
+.container{
+    height: 100%;
+}
+Copy code
+.masonry-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr) 100%;
+  gap: 10px;
+}
+
+.gallery-item {
+  width: 100%;
+}
+
+.item-1,
+.item-2 {
+  grid-column: span 2;
+}
+
+.item-3 {
+  grid-column: span 3;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}

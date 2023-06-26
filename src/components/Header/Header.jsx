@@ -1,33 +1,12 @@
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
+
 import Button from '@mui/material/Button';
-import MenuIcon from '@mui/icons-material/Menu';
-import Logo from '../../assets/logo.png'
 import './header.css'
-import { Image } from 'react-bootstrap';
+import MyNavbar from '../Navbar/Navbar';
 const Header = () => {
     return (
         <div className="header">
             <div className="container-fulid">
-                <Navbar expand="lg">
-                    <Container>
-                        <Navbar.Brand href="#home">
-                            <Image src={Logo} alt="logo" class="img-fluid"/>
-                        </Navbar.Brand>
-                        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                        <Navbar.Collapse id="basic-navbar-nav">
-                            <Nav className="me-auto">
-                                <Nav.Link href="#home">Home</Nav.Link>
-                                <Nav.Link href="#link">About</Nav.Link>
-                                <Nav.Link href="#link">Jobs</Nav.Link>
-                                <Nav.Link href="#link">Recruiment</Nav.Link>
-                            </Nav>
-
-                        </Navbar.Collapse>
-                        <Button variant="contained" href="#contained-buttons"><MenuIcon /></Button>
-                    </Container>
-                </Navbar>
+                <MyNavbar />
                 <div className="hero-section d-flex flex-column justify-content-center align-items-center">
                     <div className="hero-text">
                         <div className="title text-center">

@@ -1,0 +1,9 @@
+.about{
+    height: 428px;
+    background-image: url('../../assets/background.jpg'), linear-gradient(rgba(44, 52, 68), rgba(46, 53, 69));
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    clip-path: polygon(50% 0%, 100% 0, 100% 43%, 100% 98%, 68% 100%, 35% 100%, 0 98%, 0% 43%, 0 0);
+}

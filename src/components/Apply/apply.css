@@ -61,3 +61,19 @@
     gap: 6px;
     margin-top: 10px;
 }
+/* --Responsive -- */
+@media (max-width: 575.98px) {
+
+}
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+ 
+}
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992.1px) {
+ 
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}

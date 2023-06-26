@@ -47,3 +47,29 @@
     background: #2C3444;
     color: #ffffff;
 }
+
+/* --Responsive-- */
+/* Small devices (landscape phones, 576px and up) */
+
+@media (max-width: 575.98px) {
+      .header .container-fulid .hero-section .hero-text .discription p {
+        display: none;
+    }
+    .header .container-fulid .hero-section {
+        padding-top: 50px;
+    }
+}
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+   
+}
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992.1px) {
+    .header .container-fulid .navbar-expand-lg .container .hamburger {
+        display: none;
+    }
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}

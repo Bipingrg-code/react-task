@@ -15,11 +15,34 @@
     font-size: 24px;
     color: #14213A;
 }
-
-.trusted .container .row .col .card {
+.trusted .container .row{
+    display: flex;
+    gap: 30px; /* Adjust the gap size as needed */
+  }
+  
+.trusted .container .row .card {
     height: 100px;
     width: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex: 1;
+}
+.trusted .container .row .card  img{
+    width: 100%;
+}
+@media (max-width: 575.98px) {
+
+}
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+ 
+}
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992.1px) {
+ 
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
 }

@@ -1,5 +1,5 @@
 import './footer.css'
-import { Container, Row, Col, Image, Navbar, Nav } from 'react-bootstrap';
+import { Container, Row, Col, Image} from 'react-bootstrap';
 import Logo from '../../assets/logo.png'
 import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
 import GoogleIcon from '@mui/icons-material/Google';
@@ -21,24 +21,21 @@ const Footer = () => {
   return (
     <div className='footer'>
       <Container>
-        <Row className='d-flex justify-content-center align-items-center'>
+        <Row>
           <Col>
             <div className="logo">
-              <Image src={Logo} alt="logo" class="img-fluid" srcset="" />
+              <Image src={Logo} alt="logo" />
             </div>
-
           </Col>
           <Col>
-            <Navbar expand="lg d-flex justify-content-center align-items-center">
-              <Nav className="ml-auto">
-                <Nav.Link href="#home">Home</Nav.Link>
-                <Nav.Link href="#about">About</Nav.Link>
-                <Nav.Link href="#services">Jobs</Nav.Link>
-                <Nav.Link href="#contact">Recuirment</Nav.Link>
-              </Nav>
-            </Navbar>
+            <ul className="list-unstyled gap-4 d-flex justify-content-center align-items-center ">
+            <li>Home</li>
+            <li>About</li>
+            <li>Jobs</li>
+            <li>Recuriments</li>
+            </ul>
           </Col>
-          <Col>
+          <Col >
             <ul className="list-unstyled d-flex gap-2 justify-content-end">
               <li><FacebookOutlinedIcon /></li>
               <li><GoogleIcon /></li>
@@ -67,3 +64,11 @@ const Footer = () => {
 }
 
 export default Footer
+ // <Navbar expand="lg d-flex justify-content-center align-items-center">
+            //   <Nav className="ml-auto">
+            //     <Nav.Link href="#home">Home</Nav.Link>
+            //     <Nav.Link href="#about">About</Nav.Link>
+            //     <Nav.Link href="#services">Jobs</Nav.Link>
+            //     <Nav.Link href="#contact">Recuirment</Nav.Link>
+            //   </Nav>
+            // </Navbar>

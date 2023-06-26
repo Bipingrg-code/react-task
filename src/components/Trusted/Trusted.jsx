@@ -1,7 +1,9 @@
 import './trusted.css'
 import Container from 'react-bootstrap/Container';
-import Image from '../../assets/untitled.png'
-
+import Row from 'react-bootstrap/Row';
+import Image from 'react-bootstrap/Image'
+import Company from '../../assets/untitled.png'
+import Evr from '../../assets/evr.gif'
 const Trusted = () => {
     return (
         <div className='trusted'>
@@ -9,34 +11,29 @@ const Trusted = () => {
                 <div className="title d-flex justify-content-center align-items-center">
                     <h3>Trusted By</h3>
                 </div>
-                <div className="row">
-                    <div className="col">
-                        <div className="card">
-                            <img src={Image} alt='img'/>
-                        </div>
-                    </div>
-                    <div className="col">
-                        <div className="card">
-                            <img src={Image} alt='img'/>
-                        </div>
-                    </div>
-                    <div className="col">
-                        <div className="card">
-                            <img src={Image} alt='img'/>
-                        </div>
-                    </div>
-                    <div className="col">
-                        <div className="card">
-                            <img src={Image} alt='img'/>
-                        </div>
-                    </div>
-                    <div className="col">
-                        <div className="card">
-                            <img src={Image} alt='img'/>
-                        </div>
+                <Row>
+                    <div className="card">
+                        <Image src={Company}  alt='Image' />
                     </div>
 
-                </div>
+                    <div className="card">
+                        <Image src={Evr}  alt='Image' />
+                    </div>
+
+                    <div className="card">
+                        <Image src={Company}  alt='Image' />
+                    </div>
+
+                    <div className="card">
+                        <Image src={Company}  alt='Image' />
+                    </div>
+
+                    <div className="card">
+                        <Image src={Company}  alt='Image' />
+                    </div>
+
+
+                </Row>
             </Container>
         </div>
     )
