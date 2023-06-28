@@ -4,7 +4,7 @@ const Features = () => {
   return (
     <div className='features'>
       <Container>
-        <Row className="title d-flex justify-content-center align-item-end">
+        <Row className="title d-flex justify-content-center">
           <h3>Explore Diverse Job Opportunities in <span>Poland</span></h3>
         </Row>
         <Row className="gx-4  xs={1} sm={2} md={3} lg={4} w-100">
