@@ -9,15 +9,11 @@
 
 }
 
-.navbar-expand-lg .navbar-nav .nav-link {
-    color: #f9f9f9;
-}
-
-.hero-section {
+.header .hero-section {
     margin: 70px 0px;
 }
 
-.hero-section .hero-text .title {
+.header .hero-section .hero-text .title {
     color: #f9f9f9;
     font-weight: 700;
     font-size: 52px;
@@ -25,24 +21,24 @@
     letter-spacing: 2px;
 }
 
-.hero-section .hero-text .discription {
+.header .hero-section .hero-text .discription {
     font-weight: 400;
     font-size: 18px;
     line-height: 26px;
     color: #f9f9f9;
 }
 
-.hero-section .hero-text .discription p span {
+.header .hero-section .hero-text .discription p span {
     font-weight: bolder;
 }
 
-.hero-section .hero-btn Button {
+.header .hero-section .hero-btn Button {
     font-weight: 600;
     font-size: 15px;
     height: 46px;
 }
 
-.hero-section .hero-btn Button:nth-child(2) {
+.header .hero-section .hero-btn Button:nth-child(2) {
     border: 1px solid #2E3545;
     background: #2C3444;
     color: #ffffff;
@@ -52,10 +48,10 @@
 /* Small devices (landscape phones, 576px and up) */
 
 @media (max-width: 575.98px) {
-      .header .container-fulid .hero-section .hero-text .discription p {
+      .header .container .hero-section .hero-text .discription p {
         display: none;
     }
-    .header .container-fulid .hero-section {
+    .header .container .hero-section {
         padding-top: 50px;
     }
 }
@@ -65,7 +61,7 @@
 }
 /* Large devices (desktops, 992px and up) */
 @media (max-width: 992.1px) {
-    .header .container-fulid .navbar-expand-lg .container .hamburger {
+    .header .container .navbar-expand-lg .container .hamburger {
         display: none;
     }
 }

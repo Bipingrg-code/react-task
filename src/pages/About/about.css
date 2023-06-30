@@ -1,9 +1,56 @@
-.about{
-    height: 428px;
-    background-image: url('../../assets/background.jpg'), linear-gradient(rgba(44, 52, 68), rgba(46, 53, 69));
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
+.about-page .about-header{
+    height: 450px;
+    background-image: url('../../assets/abt-bg.jpg'),linear-gradient(rgba(224, 224, 224, 0.03), rgba(255, 255, 255, 0.05));
     background-blend-mode: overlay;
-    clip-path: polygon(50% 0%, 100% 0, 100% 43%, 100% 98%, 68% 100%, 35% 100%, 0 98%, 0% 43%, 0 0);
+    background-position: 0% 0%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+.about-page .about-header .container .hero-section {
+    margin: 50px 0px;
+}
+
+.about-page .about-header .container .hero-section .hero-text .title {
+    color: #f9f9f9;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 60px;
+    letter-spacing: 2px;
+}
+
+.about-page .about-header .container .hero-section .hero-text .description p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #f9f9f9;
+}
+
+.about-page .about-header .container .hero-section .hero-text .discription p span {
+    font-weight: bolder;
+}
+
+.about-page .about-header .container  .hero-section .hero-btn Button {
+    font-weight: 600;
+    font-size: 15px;
+    height: 46px;
+}
+
+.about-page .about-header .container  .hero-section .hero-btn Button:nth-child(2) {
+    border: 1px solid #2E3545;
+    background: #2C3444;
+    color: #ffffff;
+}
+.about-page .about-service{
+    height: 50vh;
+
+}
+.about-page .apply-contact{
+    height: 400px;
+    background-color: #090B0F;
+}
+
+.about-page .apply-contact .container .row .contact-btn button{
+    color:#125df3;
+    font-weight: bold;
 }

@@ -5,8 +5,9 @@ import MyNavbar from '../Navbar/Navbar';
 const Header = () => {
     return (
         <div className="header">
-            <div className="container-fulid">
-                <MyNavbar />
+            <MyNavbar />
+            <div className="container">
+
                 <div className="hero-section d-flex flex-column justify-content-center align-items-center">
                     <div className="hero-text">
                         <div className="title text-center">
